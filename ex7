@@ -1,1 +1,16 @@
+print("Программа ищет на какой позиции находится число.")
+numbers = [10, 20, 30, 40, 50]
 
+user_number = int(input("Введите число для поиска [10, 20, 30, 40, 50]: "))
+
+found = False
+
+for i in range(len(numbers)):
+    if numbers[i] == user_number:
+        print(f"Число {user_number} найдено на позиции {i}")
+
+        found = True
+        break
+
+if not found:
+    print("Нет такого числа")
