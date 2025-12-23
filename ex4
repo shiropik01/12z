@@ -11,4 +11,4 @@ for mark in marks:
 
 print(f"Количество пятерок: {count_5}")
 
-print(f"Количество двоек: {count_2}")D
+print(f"Количество двоек: {count_2}")
