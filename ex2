@@ -1,1 +1,13 @@
+prices = [1500, 500, 2000, 3500, 1000, 4500]
 
+max_price = max(prices)
+print(f"Самый дорогой товар стоит: {max_price}")
+
+min_price = min(prices)
+print(f"Самый дешевый товар стоит: {min_price}")
+
+total_cost = sum(prices)
+print(f"Общая стоимость товаров: {total_cost}")
+
+average_price = total_cost / len(prices)
+print(f"Средняя цена товара: {average_price}")
