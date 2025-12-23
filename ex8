@@ -1,0 +1,12 @@
+import random
+
+numbers = [random.randint(1, 100) for _ in range(5)]
+print(f"Исходный список: {numbers}")
+
+min_index = numbers.index(min(numbers))
+print(f"Индекс минимального элемента: {min_index}")
+print(f"Минимальный элемент: {numbers[min_index]}")
+
+numbers[0], numbers[min_index] = numbers[min_index], numbers[0]
+
+print(f"Список после обмена: {numbers}")
